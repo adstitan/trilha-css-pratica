@@ -1,0 +1,76 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+
+}
+
+section {
+    border: solid 1px blue;
+    padding: 50px;
+}
+
+.sec1 {
+    background-color: rgba(0, 0, 0, .8) ;
+    background-image: url("../images/banner.png");
+}
+
+.sec1 h1,p,button {
+    margin: 20px;
+}
+
+.sec1, .sec4 p{
+    color: white;
+}
+
+.sec1 h1, .sec4 h1, .sec2 h1 {
+    color: blue;
+    font-size: 50px;
+}
+
+.sec3 {
+    background-image: url(../images/woman-code.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+}
+
+.sec3 h1{
+    color: white;
+    font-size: 50px;
+    text-align: left;
+    width: 25%;
+}
+
+button {
+    color: blue;
+    padding: 10px 20px;
+    font-weight: bold;
+    border: solid 1px blue;
+}
+
+footer, .sec2, .sec4 {
+    background-color: black;
+    padding: 50px;
+}
+
+.sec2 {
+    color: white;
+}
+
+.sec2 div p {
+    border: 5px solid rgb(53, 164, 255);
+    width: 50%;
+    padding: 20px 100px;
+    border-radius: 50px;
+    background-color: gray;
+    margin: 15px auto;
+}
+
+.sec2 div p span {
+    color: lightblue;
+}
